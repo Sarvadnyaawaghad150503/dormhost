@@ -38,10 +38,10 @@ function App() {
           <Layout title="DormDine || Home">
             <Navbar />
             <Hero />
-            {/* <PopularProperties /> */}
-            {/* <Services/> */}
-            {/* <Newsletter /> */}
-            {/* <Footer /> */}
+             <PopularProperties /> 
+            <Services/> 
+             <Newsletter /> 
+            <Footer />
           </Layout>
         } />
         <Route path='/signup' element={!user ? <Signup /> : <Navigate to='/' />} />
